@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(240, 219, 220);
+}
+.navBackground {
+    background-image: url('/images/backgroundNav.jpg');
+
+    background-position-x: center;
+    background-position-y: center;
+    height: 35vh;
+    text-align: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto 75px auto;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.card ,
+.card-img {
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgb(63 58 80 / 75%);
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    text-align: center;
+    width: 350px;
+    height: 320px;
+}
+
+.card h3 {
+    background: linear-gradient(var(--blue) 25%, rgba(0,0,0,0));
+    padding: 25px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
